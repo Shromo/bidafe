@@ -1,0 +1,13 @@
+.contenedor-noticia {
+  width: 277.5px;
+  height: 277.5px;
+  overflow: hidden;
+}
+
+.contenedor-noticia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+

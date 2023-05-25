@@ -1,0 +1,114 @@
+* {
+  color: rgb(255, 255, 255);
+}
+
+.contenedor-navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*X*/
+  gap: 15px;
+}
+
+.contenedor-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 90px;
+  background-color: #8760CC;
+  justify-content: space-around;
+}
+
+.logo-bida{
+  height: 45px;
+  padding-top: 10px;
+}
+
+.texto-logo-bida {
+  height: 12px;
+  padding-bottom: 10px;
+}
+
+.navegacion {
+  width: 150px;
+  height: 270px;
+  background-color: #fff;
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.inicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 125px;
+  height: 35px;
+  background-color: #8760CC;
+
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 125px;
+  height: 35px;
+  background-color: #8760CC;
+
+  text-decoration: none;
+}
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 125px;
+  height: 35px;
+  background-color: #8760CC;
+
+  text-decoration: none;
+}
+
+.contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 125px;
+  height: 35px;
+  background-color: #8760CC;
+
+  text-decoration: none;
+}
+
+.admin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 125px;
+  height: 35px;
+  background-color: #8760CC;
+
+  text-decoration: none;
+}
+
+
+
+.redes {
+  width: 150px;
+  height: 60px;
+  background-color: #8760CC;
+}
+
+
+/*hover para que aparezca el bg*/

@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+  height: 60px;
+  background: #E089FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-header {
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 700px) { /*cuando tenga < de 700px*/
+  .header {
+    position: relative;
+    height: 60px;
+    background: #E089FF;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-header {
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+
